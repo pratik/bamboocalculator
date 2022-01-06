@@ -258,7 +258,8 @@
 				</p>
 				<p class="text-center">for all the farmers and bamboo lovers!</p>
 				<p class="text-center"><a href="https://wa.me/919904001599" target="_blank">whatsapp your suggestions or connect to collaborate</a></p>
-				<p class="text-center"><small><a href="https://youtu.be/Rzj7nyzmhF4?t=495" target="_blank">Data taken from Dr N Bharathi's presentation on youtube</a></small></p><br>
+				<p class="text-center"><small><a href="https://youtu.be/Rzj7nyzmhF4?t=495" target="_blank">Data taken from Dr N Bharathi's presentation on youtube</a></small></p>
+				<p class="text-center"><small><a href="https://github.com/pratik/bamboocalculator" target="_blank">open source code on github</a></small></p><br>
 			</div>
 		</div>	   
 	</div>

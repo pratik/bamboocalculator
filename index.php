@@ -551,7 +551,8 @@
 				<p class="text-center">developed by <a href="https://pratiksethia.com" target="_blank">pratiksethia.com</a>
 				</p>
 				<p class="text-center">for all the farmers and bamboo lovers!</p>
-				<p class="text-center"><a href="https://wa.me/919904001599" target="_blank">whatsapp your suggestions or connect to collaborate</a></p><br>
+				<p class="text-center"><a href="https://wa.me/919904001599" target="_blank">whatsapp your suggestions or connect to collaborate</a></p>
+				<p class="text-center"><small><a href="https://github.com/pratik/bamboocalculator" target="_blank">open source code on github</a></small></p><br>
 				
 			</div>
 		</div>	   
