@@ -11,7 +11,6 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
-
 </head>
 <body>
 	<style>
@@ -211,22 +210,23 @@
 				            <i class="fas fa-info-circle" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true" title="Low Density plantation is recommended by NBM. 180-250 plants per acre for large species and 350-425 plants per acre for smaller species."></i>
 				        </label>
 				        <div class="btn-group" id="aBtnGroup" style="">
-				            <button type="button" value="H" data-row="12" data-plant="6" class="btn btn-default">High</button>
-                            <button type="button" value="M" data-row="14" data-plant="8" class="btn btn-default">Medium</button>
-                            <button type="button" value="L" data-row="16" data-plant="10" class="btn btn-default active">Low</button>
+				            <button type="button" value="U" data-row="10" data-plant="4" class="btn btn-default" style="font-size:14px;">Ultra High</button>
+				            <button type="button" value="H" data-row="12" data-plant="6" class="btn btn-default" style="font-size:14px;">High</button>
+                            <button type="button" value="M" data-row="12" data-plant="8" class="btn btn-default active" style="font-size:14px;">Med</button>
+                            <button type="button" value="L" data-row="16" data-plant="10" class="btn btn-default" style="font-size:14px;">Low</button>
 						</div>
 				    </div>
 				    <div class="formbuilder-number form-group field-plants_per_row">
 				        <label for="plants_per_row" class="formbuilder-number-label">Distance between row to row</label>
 				        <div class="input-group">
-						  	<input type="number" min="0" class="form-control form-control-sm" name="plants_per_row" access="false" value="16" id="plants_per_row" required="required" aria-required="true">
+						  	<input type="number" min="0" class="form-control form-control-sm" name="plants_per_row" access="false" value="12" id="plants_per_row" required="required" aria-required="true">
 						  	<span class="input-group-text">Feet</span>
 						</div>
 				    </div>
 				    <div class="formbuilder-number form-group field-plants_per_column">
 				        <label for="plants_per_column" class="formbuilder-number-label">Distance between plant to plant</label>
 				        <div class="input-group">
-						  	<input type="number" min="0" class="form-control form-control-sm" name="plants_per_column" access="false" value="10" id="plants_per_column" required="required" aria-required="true">
+						  	<input type="number" min="0" class="form-control form-control-sm" name="plants_per_column" access="false" value="8" id="plants_per_column" required="required" aria-required="true">
 						  	<span class="input-group-text">Feet</span>
 						</div>
 				    </div>
@@ -423,7 +423,7 @@
                 								</div>
                 								<div class=col-lg-12>
                 									<div class="formbuilder-number form-group field-revenue_per_culm ">
-                								        <label for="revenue_per_culm" class="formbuilder-number-label">Market price per Pole
+                								        <label for="revenue_per_culm" class="formbuilder-number-label">Market price per Pole <small>(NOT including transport)</small>
                 								        <i class="fas fa-info-circle" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true" title="12-15ft Poles can be sold ranging ₹30-150 depending on the quality, treatment done and market requirements."></i>  	
                 										</label> 
                 										<div class="input-group rupeewrapper">
@@ -553,6 +553,7 @@
 				<p class="text-center">for all the farmers and bamboo lovers!</p>
 				<p class="text-center"><a href="https://wa.me/919904001599" target="_blank">whatsapp your suggestions or connect to collaborate</a></p>
 				<p class="text-center"><small><a href="https://github.com/pratik/bamboocalculator" target="_blank">open source code on github</a></small></p><br>
+				<p class="text-center" style="color:red"><small>The above data might not be scientifically accurate. Please add your own location based data to get correct numbers.</small></p><br>
 				
 			</div>
 		</div>	   
@@ -699,15 +700,6 @@ function calculatebamboo() {
   gtag('js', new Date());
   gtag('config', 'G-9QQ2635NX8');
 </script>
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:2766870,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
+
 </body>
 </html>
