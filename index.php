@@ -270,7 +270,7 @@
 							</div>
 					    </div>
 					    <div class="formbuilder-number form-group field-onetime_fencing">
-					        <label for="onetime_fencing" class="formbuilder-number-label">Fencing Costs
+					        <label for="onetime_fencing" class="formbuilder-number-label"><?php echo $finalarray['fencing_costs']; ?>
 					        <i class="fas fa-info-circle" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true" title="₹20,000-70,000 per acre for cement pole/steel wire. As you increase land area, decrease the cost as the fencing is done only on border permimeters<br>
 					        bio-fences (thorny cacti, bamboo poles, wild trees, windbreaker plants, etc) can be used to cut costs, protect from animals and conserve soil moisture at the same time."></i>
 					        </label>
@@ -386,11 +386,11 @@
 	        
 	            		    <div class="col-lg-12 mb-3">
 	            		        <div class="costing-columns mb-3"  style="background:#000;color:white;">
-	                    				    <h2>Investment <i class="fas fa-info-circle" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true" title="keeps decreasing after first few years"></i>
+	                    				    <h2><?php echo $finalarray['investment']; ?>  <i class="fas fa-info-circle" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true" title="keeps decreasing after first few years"></i>
 	                    				    </h2>
 	                    				    
-	                    				   	<p> 1<sup>st</sup> Year : ₹<span id="totalinvestment" class="mediumnumber"></span> once </p><hr>
-	                    				   	<p> 2<sup>nd</sup> Year Onwards: ₹<span id="yearlyinvestment" class="mediumnumber"></span> <?php echo $finalarray['per_year']; ?> </p>
+	                    				   	<p> <?php echo $finalarray['firstyear']; ?> : ₹<span id="totalinvestment" class="mediumnumber"></span> <?php echo $finalarray['once']; ?> </p><hr>
+	                    				   	<p> <?php echo $finalarray['second_year_onwards']; ?>: ₹<span id="yearlyinvestment" class="mediumnumber"></span> <?php echo $finalarray['per_year']; ?> </p>
 	                    				   	<!-- <button class="setalltozero">Set to Zero</button> -->
 	                    	            <br>
 	                    	            
